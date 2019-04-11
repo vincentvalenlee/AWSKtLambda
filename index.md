@@ -7,10 +7,10 @@
  - 提供AWS_Proxy集成模式的封装
  - 提供kotlin方式的路由处理handler
 > eg. 
-> 
+>  
 >  AWSProxy {
->
->   get("/user") { ctx ->
+>  
+>  get("/user") { ctx ->
 >    
 >    ctx.response("hellow word");
 >   
@@ -23,7 +23,7 @@
 >      ctx.json(model)
 >   
 >   }
->  
+>    
 >  }
  - 兼容JAX-RS规范，使用注解定义路由处理
 > eg.
