@@ -27,7 +27,7 @@
 >  }
  - 兼容JAX-RS规范，使用注解定义路由处理
 > eg.
->
+>   
 >   @Path("/library")
 >   
 >   public class Library {
@@ -57,9 +57,9 @@
 >   @DELETE
 >   
 >   @Path("/book/{id}")
->
+>   
 >   public void removeBook(@PathParam("id") String id {...}
->
+>    
 >  }
 - 支持Lambda @Heart心跳保持，避免AWS Lambda 冷启动
 - 支持AWS @KeepAlive(resource = {db, sns, iot, sqs}) 资源链接的保持
