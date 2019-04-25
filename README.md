@@ -61,6 +61,8 @@
 >   public void removeBook(@PathParam("id") String id {...}
 >    
 >  }
+- 支持lambda中pojo函数直接返回对象，自动转换成proxy模式的json格式。
+- 支持自动处理异常格式，映射到对应的error code
 - 支持Lambda @Heart心跳保持，避免AWS Lambda 冷启动
 - 支持AWS @KeepAlive(resource = {db, sns, iot, sqs}) 资源链接的保持
 - 后续版本引入camel，使用kotlin DSL方式调用AWS 各种资源
